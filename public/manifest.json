@@ -1,0 +1,10 @@
+{
+  "name": "Random App",
+  "short_name": "Random",
+  "icons": [],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2196f3",
+  "theme_color": "#2196f5",
+  "orientation": "portrait-primary"
+}

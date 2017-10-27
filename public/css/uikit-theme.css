@@ -1,0 +1,203 @@
+::selection {
+  background: #5872b5;
+  color: #fff;
+  text-shadow: none;
+}
+
+html {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.73;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background: #eef6fa;
+    color: #4f5a80;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+a, .uk-link {
+    color: #5466c4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h4, .uk-h4 {
+    font-size: 13px;
+    line-height: 1.4;
+    color: #5872b5;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+h5, .uk-h5 {
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.uk-card-default {
+    background: #fff;
+    color: #4f5a80;
+    background-image: linear-gradient(135deg, #fff, #eef6fa);
+    box-shadow: 0 15px 50px 0 rgba(85, 95, 109, 0.1);
+}
+
+.uk-button-small {
+    padding: 0 20px;
+    line-height: 28px;
+    font-size: 11px;
+    border-radius: 500px;
+}
+
+.uk-button-primary {
+    background-color: #5872b5;
+    background-image: linear-gradient(135deg, #638fba, #46569e);
+    color: #fff;
+    border: 1px solid transparent;
+    box-shadow: 2px 6px 15px rgba(88, 114, 181, 0.35);
+}
+
+.uk-card-default .uk-card-title {
+    color: #314483;
+}
+
+.uk-margin-remove {
+    margin: 0 !important;
+}
+
+.uk-card-title {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.uk-search-default .uk-search-icon:not(.uk-search-icon-flip) + .uk-search-input {
+    padding-left: 40px;
+}
+
+.uk-search-default .uk-search-input {
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: transparent;
+    border: 1px solid #dee6ed;
+    border-radius: 500px;
+}
+
+.uk-search-input {
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 0;
+    font: inherit;
+    overflow: visible;
+    -webkit-appearance: none;
+    vertical-align: middle;
+    width: 100%;
+    border: none;
+    color: #314483;
+    transition: 0.2s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+}
+
+
+.uk-table th {
+    padding: 16px 12px;
+    text-align: left;
+    vertical-align: bottom;
+    font-size: 11px;
+    font-weight: normal;
+    color: #8d9ab1;
+    text-transform: uppercase;
+}
+
+
+.uk-nav-default {
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.uk-nav-default > li.uk-active > a {
+    color: #314483;
+    background-color: transparent;
+}
+
+.uk-list-striped > li:nth-of-type(odd) {
+    background: #e5edf4;
+}
+
+.uk-list-striped > li:nth-of-type(odd) {
+    border-top: 0 solid transparent;
+    border-bottom: 0 solid transparent;
+}
+
+
+.uk-form-label {
+    font-size: 11px;
+    color: #314483;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.uk-input, .uk-select, .uk-textarea {
+    max-width: 100%;
+    width: 100%;
+    border: 0 none;
+    padding: 0 10px;
+    background: #eef6fa;
+    color: #4f5a80;
+    border: 1px solid #dee6ed;
+    transition-property: color, background-color, border;
+    transition: 0.2s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+    border-radius: 2px;
+}
+
+.uk-input, .uk-select:not([multiple]):not([size]) {
+    border: 1px solid #dee6ed;
+    height: 40px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.uk-input:focus, .uk-select:focus, .uk-textarea:focus {
+    outline: none;
+    background-color: #fff;
+    color: #314483;
+    border-color: #fff;
+    border-color: #fff !important;
+    box-shadow: 0 6px 15px 0 rgba(85, 95, 109, 0.1);
+}
+
+
+.uk-alert-danger {
+    background: #fff;
+    color: #d95e60;
+}
+
+.uk-text-danger {
+    color: #d95e60 !important;
+    font-size: 11px;
+}
+
+@media (min-width: 960px) {
+    .uk-form-horizontal .uk-form-label {
+        float: left;
+        margin-top: 7px;
+        width: 200px;
+    }
+}
+
